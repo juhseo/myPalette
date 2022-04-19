@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <title>myPalette</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/painter.js" defer></script>
+</head>
+<body>
+    <div id="bg">
+        <div id="popUp">
+            <div id="ptext">
+                <h3>myPalette 사용법</h3>
+                <p>1. 배경색을 먼저 지정 후 캔버스를 채워주세요.</p>
+                <p>2. 브러쉬 색을 지정 후 그림을 그려보세요.</p>
+                <p>ENJOY !</p>
+            </div>
+            <button id="exit">닫기</button>
+        </div>
+    </div>
+    <div id="top">
+        <div id="paintType">
+            <button id="paintImg"></button>
+            <button id="brushImg"></button>
+        </div>
+        <canvas id="canvas" width="1000" height="800"></canvas>
+        <div id="palette">
+            <div class="btns" id="btns01">
+                <button style="background-color: tomato;">tomato</button>
+                <button style="background-color: crimson;">crimson</button>
+                <button style="background-color: red;">red</button>
+                <button style="background-color: lightyellow;">lightyellow</button>
+                <button style="background-color: yellow;">yellow</button>
+                <button style="background-color: orange;">orange</button>
+                <button style="background-color: yellowgreen;">yellowgreen</button>
+                <button style="background-color: green;">green</button>
+                <button style="background-color: darkolivegreen;">darkolivegreen</button>
+                <button style="background-color: cadetblue;">cadetblue</button>
+                <button style="background-color: lightblue;">lightblue</button>
+                <button style="background-color: lightskyblue;">lightskyblue</button>
+                <button style="background-color: cornflowerblue;">cornflowerblue</button>
+                <button style="background-color: darkslateblue;">darkslateblue</button>
+                <button style="background-color: darkblue;">darkblue</button>
+                <button style="background-color: pink;">pink</button>
+                <button style="background-color: plum;">plum</button>
+                <button style="background-color: purple;">purple</button>
+                <button style="background-color: darkgray;">darkgray</button>
+                <button style="background-color: lightslategrey">lightslategrey</button>
+                <button style="background-color: white; border: 1px solid darkgray;">white</button>
+                <button style="background-color: black;">black</button>
+            </div>
+        </div>
+    </div>
+    <div id="addBtn">
+        <button>RESET</button>
+        <button class="save">SAVE</button>
+    </div>
+</body>
+</html>
